@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: "Poppins";
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+
+.content{
+    /* background-color: red; */
+    /* width: 100vw; */
+    height: 100vh;
+    display: flex;
+}
+
+.aside-section{
+    background-color: white;
+    height: 100vh;
+    width: 25%;
+    /* border-right: 1px solid rgb(213, 203, 203); */
+    /* position: fixed; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.aside-section .logo{
+    margin-bottom: 3rem;
+}
+.aside-section .logo a{
+    text-decoration: none;
+    font-family: "Clicker Script";
+    font-size: 3rem;
+    font-weight: 900;
+    color: red;
+}
+.aside-section .nav{
+    margin-bottom: 2rem;
+}
+.aside-section .nav li{
+  text-decoration: none;
+  margin-top: 1rem;
+  list-style: none;
+  border-bottom: 2px solid black;
+  padding: 0.5rem;
+}
+.aside-section .nav li:hover{
+    border-bottom: 2px solid rgb(173, 172, 172);
+}
+.aside-section .nav li a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: rgb(89, 89, 89);
+    font-weight: 600;
+    font-family:"Poppins";
+}
+.aside-section .nav li a.active{
+    color:palevioletred;
+}
+.aside-section .nav li a i{
+  margin-right: 1rem;
+}
+
+
+.profile-section{
+    background-color: rgb(219, 219, 213);
+    height: 100vh;
+    /* border: 1px solid black; */
+    width: 80%;
+   
+    /* justify-content: space-around; */
+   
+    /* padding: 2rem; */
+    
+}
+.main-sec{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.home-info{
+    margin: 2rem;
+}
+
+h3.hello{
+   font-size: 2.5rem;
+}
+h3.hello span{
+    font-family: "Clicker Script";
+    font-weight: 900;
+    font-size: 4rem;
+    color: red;
+}
+h3.my-profession{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.typing{
+    color: red;
+}
+
+.home-info p{
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+.hire-me{
+    text-decoration: none;
+   background-color: red;
+   padding: 0.7rem 2rem;
+   color: white;
+   border-radius: 1.5rem;
+}
+.hire-me:hover{
+  background-color: black;
+}
+
+.homeimage img{
+    height: 300px;
+    margin-right: 5rem;
+}
+
+
+/* ------about---- */
+
+.About{
+    height:100vh;
+    background-color: rgb(219, 219, 213);
+}
+.about-container{
+margin-left: 2rem;
+padding-top: 4rem;
+}
+.about-title h2{
+    font-size: 1.75rem;
+}
+.about-title h2::before{
+    content: "";
+    width: 40px;
+    height: 2px;
+    background-color: red;
+    position: absolute;
+}
+.about-content{
+    margin-top: 2rem;
+}
+.about-content span{
+    color: red;
+}
+.about-content h3{
+    font-size: 1.5rem;
+}
+.about-content p{
+    margin-top: 2rem;
+    font-size: 1.1rem;
+}
+
+.details{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 2rem;
+    margin-top: 3rem;
+    margin-right: 2rem;
+}
+.info h5{
+    padding: 0.5rem;
+}
+.info h5 span{
+    font-weight:400;
+}
+
+.buttons-row{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 4rem;
+}
+.btn a{
+    text-decoration: none;
+    background-color: red;
+    padding: 0.7rem 2rem;
+    color: white;
+    border-radius: 1.5rem;
+    border: none;
+}
+.btn a:hover{
+    background-color: black;
+  }
+  
+.btn2{
+    margin-left: 3rem;
+}
+
+/* -----skills---- */
+.skill-section{
+    background-color: rgb(219, 219, 213);
+    height: 100%;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+section {
+ margin-left: 2rem;
+
+}
+
+/* Skills Section */
+ .skills-container {
+    max-width: 70%;
+    margin-left: 2rem;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.skill {
+    margin-top: 1rem;
+}
+
+ .progress-bar {
+    background-color: #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    height: 1.5rem;
+}
+
+ .progress {
+    background-color:rgb(246, 50, 50);
+    height: 100%;
+    color: white;
+    text-align: right;
+    padding-right: 5px;
+    line-height: 1.5rem; /* vertically center the text */
+    border-radius: 5px 0 0 5px;
+}
+.contact-section{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+    
+}
+.contact-container{
+    /* background-color: black; */
+    color: white;
+}
+.social a{
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: white;
+}
+.footer{
+   background-color: black;
+   width: 100%;
+   color: #ffffff;
+   height: 20%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-top: 2rem;
+   padding-bottom: 1rem;
+}
+
+
